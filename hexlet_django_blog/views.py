@@ -17,3 +17,6 @@ def about(request):
         "about.html",
         context={"tags": tags},
     )
+
+def base(request):
+    return render(request, "base.html")
